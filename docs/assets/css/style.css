@@ -1,6 +1,5 @@
 body {
-    font-size:14px;
-    line-height:1.33;
+    font-size:18px;
     font-family:"Inter Display", system-ui, -apple-system, Helvetica, sans-serif;
     background-color:white;
 }
@@ -40,6 +39,10 @@ h3 {
 }
 p {
     margin-bottom:25px;
+    line-height: 1.5;
+}
+a{
+    text-underline-position: 0.12em;
 }
 a:hover {
     text-decoration:none;
@@ -101,7 +104,7 @@ pre > code {
 }
 .label {
     white-space:nowrap;
-    font-family:Menlo, Consolas, "Courier New", monospace;
+    font-family:"Menlo", Consolas, "Courier New", monospace;
     font-size:16px;
     padding:0px 3px;
 }
@@ -123,10 +126,10 @@ pre > code {
 }
 :not(pre) > code:not(.label, .function, .type, .class, .law) {
     white-space:nowrap;
-    font-family:Consolas, "Courier New", monospace;
+    font-family:"Menlo", Consolas, "Courier New", monospace;
     background-color:#ddd;
     font-weight:normal;
-    padding:0px 3px;
+    padding:1px 3px;
     font-weight:bold;
     /* Allow inline code to wrap if necessary */
     /* These rules were based off the CSS used on the Stack Exchange website */
