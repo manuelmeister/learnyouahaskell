@@ -2,11 +2,12 @@
 {
 	font-family: "Menlo", "Consolas", monospace;
 	font-size: 14px;
-	background-color: black;
+	background-color: #202830;
 	width: 99%;
 	overflow: auto;
 	margin: 0px 0 25px 0 !important;
 	padding: 10px; /* adds a little border on top when controls are hidden */
+	border-radius: 4px;
 }
 
 /* clear styles */
