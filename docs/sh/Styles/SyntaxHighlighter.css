@@ -179,13 +179,15 @@
 
 /* Language specific styles */
 
-.dp-highlighter .comment, .dp-highlighter .comments { color: #666; background-color: inherit; }
-.dp-highlighter .string { color: #ffff99; background-color: inherit; }
-.dp-highlighter .keyword { color: #8ac6f2; font-weight: bold; background-color: inherit; }
+.dp-highlighter .comment, .dp-highlighter .comments { color: #9198a1; }
+.dp-highlighter .string { color: #96d0ff; background-color: inherit; }
+.dp-highlighter .keyword { color: #f47067; font-weight: bold; background-color: inherit; }
 .dp-highlighter .keyword2 { color: #95e454; font-weight: bold; background-color: inherit; }
 .dp-highlighter .preprocessor { color: gray; background-color: inherit; }
-.dp-highlighter .numbers {color:#e5786d }
-.dp-highlighter .char {color:#e5786d }
+.dp-highlighter .type_constructors { color: #dcbdfb; }
+.dp-highlighter .syntax_operators { color: #f47067; }
+.dp-highlighter .numbers {color:#6cb6ff }
+.dp-highlighter .char {color:#96d0ff }
 .dp-highlighter .markspecial {color:#8ac6f2 }
 .dp-highlighter .ghci {color:#aaa }
 
