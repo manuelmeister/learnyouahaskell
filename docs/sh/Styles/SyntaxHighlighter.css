@@ -1,6 +1,6 @@
 .dp-highlighter
 {
-	font-family: "Menlo", "Consolas", monospace;
+	font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
 	font-size: 14px;
 	background-color: #202830;
 	width: 99%;
