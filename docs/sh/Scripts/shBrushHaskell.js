@@ -50,10 +50,6 @@ dp.sh.Brushes.Haskell = function()
                          ];
 
         this.CssClass = 'dp-hs';
-
-        this.Style = '.dp-hs .syntax_operators { color: #8ac6f2; }' +
-                     '.dp-hs .common_operators { color: #8ac6f2; }' +
-                     '';
 };
 
 dp.sh.Brushes.Haskell.prototype     = new dp.sh.Highlighter();
