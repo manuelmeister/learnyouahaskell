@@ -106,7 +106,8 @@ pre > code {
     white-space:nowrap;
     font-family:"Menlo", Consolas, "Courier New", monospace;
     font-size:16px;
-    padding:0px 3px;
+    padding: 1px 3px;
+    border-radius: 4px;
 }
 .function {
     background-color:#c00;

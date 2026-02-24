@@ -187,6 +187,7 @@
 .dp-highlighter .preprocessor { color: gray; background-color: inherit; }
 .dp-highlighter .type_constructors { color: #dcbdfb; }
 .dp-highlighter .syntax_operators { color: #f47067; }
+.dp-highlighter .constants { color: #6cb6ff; }
 .dp-highlighter .numbers {color:#6cb6ff }
 .dp-highlighter .char {color:#96d0ff }
 .dp-highlighter .markspecial {color:#8ac6f2 }
