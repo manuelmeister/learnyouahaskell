@@ -128,16 +128,13 @@ pre > code {
 :not(pre) > code:not(.label, .function, .type, .class, .law) {
     white-space:nowrap;
     font-family:"Menlo", Consolas, "Courier New", monospace;
-    background-color:#ddd;
-    font-weight:normal;
-    padding:1px 3px;
-    font-weight:bold;
-    /* Allow inline code to wrap if necessary */
-    /* These rules were based off the CSS used on the Stack Exchange website */
-    overflow-wrap:break-word;
-    text-wrap:wrap;
-    /* Rounded corners help user connect two parts of one code snippet wrapped across lines */
-    border-radius:4px;
+    background-color:#818b981f;
+    font-weight: normal;
+    padding: .2em .4em;
+    overflow-wrap: break-word;
+    text-wrap: wrap;
+    border-radius: 6px;
+    font-size: 85%;
 }
 #content {
     /* For narrow viewports, the content width will be 90% of the viewport width */
