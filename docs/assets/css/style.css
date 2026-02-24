@@ -1,7 +1,7 @@
 body {
     font-size:14px;
-    line-height:25px;
-    font-family:Arial, sans-serif;
+    line-height:1.33;
+    font-family:"Inter Display", system-ui, -apple-system, Helvetica, sans-serif;
     background-color:white;
 }
 .clear {
@@ -10,7 +10,7 @@ body {
 h1 {
     font-size:60px;
     line-height:60px;
-    font-family:georgia, Arial, serif;
+    font-family:"Inter Display", system-ui, -apple-system, Helvetica, sans-serif;
     margin-bottom:15px;
     font-weight:normal;
     overflow-wrap:break-word;
@@ -27,14 +27,14 @@ h2 {
     font-size:20px;
     line-height:20px;
     margin-bottom:15px;
-    font-family:Arial, sans-serif;
+    font-family:"Inter Display", system-ui, -apple-system, Helvetica, sans-serif;
     color:black;
 }
 h3 {
     font-size:16px;
     line-height:16px;
     margin-bottom:15px;
-    font-family:Arial, serif;
+    font-family:"Inter Display", system-ui, -apple-system, Helvetica, sans-serif;
     color:#000;
     font-style:italic;
 }
@@ -78,7 +78,7 @@ pre > code {
     color:white;
     /*background-color:#522812;*/
     background-color:black;
-    font-family:Consolas, "Courier New", monospace;
+    font-family:"Menlo", Consolas, "Courier New", monospace;
     font-size:12px;
     line-height:16px;
     padding:5px;
@@ -101,7 +101,7 @@ pre > code {
 }
 .label {
     white-space:nowrap;
-    font-family:Consolas, "Courier New", monospace;
+    font-family:Menlo, Consolas, "Courier New", monospace;
     font-size:16px;
     padding:0px 3px;
 }

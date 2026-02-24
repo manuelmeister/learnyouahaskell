@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://learnyouahaskell.github.io/sitemap.xml
+Sitemap: https://manuelmeister.github.io/learnyouahaskell/sitemap.xml
