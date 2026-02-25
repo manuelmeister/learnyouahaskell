@@ -49,7 +49,7 @@ dp.sh.Brushes.Haskell = function()
                 { regex: /'\\\d+'/g, css:'char'},
                 { regex: /ghci&gt;/g, css:'ghci'}, //ghci prompt
                 { regex: /`(\w|')+`/g, css: 'common_operators' },  					// common operators
-                { regex: /\b[A-Z]\w*\b/g, css: 'type_constructors' },  				// type constructors
+                { regex: /\b(?!(?:True|False)\b)[A-Z]\w*\b/g, css: 'type_constructors' },  				// type constructors
                          ];
 
         this.CssClass = 'dp-hs';
