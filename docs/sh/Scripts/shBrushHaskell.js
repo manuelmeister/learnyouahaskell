@@ -41,7 +41,7 @@ dp.sh.Brushes.Haskell = function()
                 { regex: new RegExp('^ *#.*', 'gm'), css: 'preprocessor' },			// preprocessor
                 { regex: new RegExp(this.GetKeywords(keywords), 'g'), css: 'keyword' },     	// keyword
                 { regex: new RegExp(this.GetKeywords(keywords2), 'g'), css: 'keyword2' },     	// keyword
-                { regex: new RegExp(_split(constants), 'g'), css: 'constants' },     	// constants
+                //{ regex: new RegExp(_split(constants), 'g'), css: 'constants' },     	// constants
                 { regex: new RegExp(_split(syntax_operators), 'g'), css: 'syntax_operators' },  // syntax operators
                 { regex: new RegExp(_split(common_operators), 'g'), css: 'common_operators' },  // common operators
                 { regex: /\b[0-9]+(\.[0-9]+)?\b/g, css: 'numbers' }, //numbers
@@ -49,6 +49,7 @@ dp.sh.Brushes.Haskell = function()
                 { regex: /'\\\d+'/g, css:'char'},
                 { regex: /ghci&gt;/g, css:'ghci'}, //ghci prompt
                 { regex: /`(\w|')+`/g, css: 'common_operators' },  					// common operators
+                { regex: /\b(?:True|False)\b/g, css: 'constants' },  				// type constructors
                 { regex: /\b(?!(?:True|False)\b)[A-Z]\w*\b/g, css: 'type_constructors' },  				// type constructors
                          ];
 
